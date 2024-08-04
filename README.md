@@ -1,6 +1,6 @@
 <!--
     ###############################################################
-    #                                                             
+    #
     #  This file is part of your-app-name
     #
     #  Copyright (c) 2024 Alexander Mann-Wahrenberg (basejumpa)
@@ -8,10 +8,10 @@
     #      https://github.com/basejumpa
     #
     #  License(s)
-    #  
+    #
     #  - MIT for contents used as software
     #  - CC BY-SA-4.0 for contents used as method or otherwise
-    #  
+    #
     ###############################################################
 -->
 
@@ -87,3 +87,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# The Application
+
+## Design Goal
+
+Extensible application by modularization.
+Core application shall be stable, so no minimal modification necessary when new requirements come in.
+
+## Requirements
+
+No Requirements yet.
