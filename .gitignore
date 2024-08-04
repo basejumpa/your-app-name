@@ -1,5 +1,5 @@
 ###############################################################
-#                                                             
+#
 #  This file is part of your-app-name
 #
 #  Copyright (c) 2024 Alexander Mann-Wahrenberg (basejumpa)
@@ -7,10 +7,10 @@
 #      https://github.com/basejumpa
 #
 #  License(s)
-#  
+#
 #  - MIT for contents used as software
 #  - CC BY-SA-4.0 for contents used as method or otherwise
-#  
+#
 ###############################################################
 
 # Local (scope is this repository some kind of "virtual" extensions and user settings)
@@ -21,8 +21,6 @@
 # Advantage: Do not touch your system's VS Code environment. Same as with pipenv
 /.extensions/
 /.user/
-
-
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -48,3 +46,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Python stuff
+.venv/
+__pycache__/
+*.pyc
+poetry.lock
