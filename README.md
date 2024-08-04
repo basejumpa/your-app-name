@@ -98,4 +98,6 @@ Core application shall be stable, so no minimal modification necessary when new 
 
 ## Requirements
 
-No Requirements yet.
+Req_01: The user shall be able to interact with the application by entering values and getting calculated values derived from their inputs.
+
+Req_02: ComponentA shall have a button. When the user presses this button a value is incremented. The button label shows that value. Initial value is 19.
