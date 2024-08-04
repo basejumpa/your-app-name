@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { incrementB } from './slice';
 
 const ComponentB = () => {
-  const valueB = useSelector(state => state.componentB.valueB);
+  const valueB = useSelector(state => state.ComponentB.valueB);
   const dispatch = useDispatch();
 
   const fetchValueAndUpdateB = async () => {

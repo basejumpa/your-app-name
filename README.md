@@ -109,3 +109,6 @@ NOTE: Start backend via
 ```bash
 poetry run uvicorn backend.main:app --reload --port 8000
 ```
+
+
+Req_04: ComponentC displays the sum of the values of ComponentA und ComponentB.

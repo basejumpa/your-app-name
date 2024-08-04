@@ -6,7 +6,7 @@ const initialState = {
 };
 
 const componentBSlice = createSlice({
-  name: 'componentB',
+  name: 'ComponentB',
   initialState,
   reducers: {
     incrementB(state, action) {
@@ -21,6 +21,6 @@ const componentBSlice = createSlice({
 export const { incrementB, resetB } = componentBSlice.actions;
 
 // Register the reducer when this module is loaded
-registerReducer('componentB', componentBSlice.reducer);
+registerReducer('ComponentB', componentBSlice.reducer);
 
 export default componentBSlice.reducer;
