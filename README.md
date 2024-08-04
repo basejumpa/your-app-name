@@ -101,3 +101,5 @@ Core application shall be stable, so no minimal modification necessary when new 
 Req_01: The user shall be able to interact with the application by entering values and getting calculated values derived from their inputs.
 
 Req_02: ComponentA shall have a button. When the user presses this button a value is incremented. The button label shows that value. Initial value is 19.
+
+Req_03: ComponentB shall have a button as well. When pressed it retrieves a value from an API call and adds it to its own value which is displayed in the button label. Initial state of the own variable is 76.
