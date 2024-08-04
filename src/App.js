@@ -2,12 +2,12 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
 
-import A from './components/A'
+import ComponentA from './components/ComponentA'
 
 const App = () => {
     return (
         <Provider store={store}>
-        <A/>
+        <ComponentA/>
         </Provider>
     );
 };
