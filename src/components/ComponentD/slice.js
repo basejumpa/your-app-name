@@ -3,12 +3,12 @@ import { registerReducer } from '../../store';
 
 const initialState = {};
 
-const componentCSlice = createSlice({
-  name: 'componentC',
+const componentDSlice = createSlice({
+  name: 'ComponentD',
   initialState,
   reducers: {},
 });
 
-registerReducer('componentC', componentCSlice.reducer);
+registerReducer('componentD', componentDSlice.reducer);
 
-export default componentCSlice.reducer;
+export default componentDSlice.reducer;

@@ -112,3 +112,5 @@ poetry run uvicorn backend.main:app --reload --port 8000
 
 
 Req_04: ComponentC displays the sum of the values of ComponentA und ComponentB.
+
+Req_05: ComponentD has a button to reset the variables to their initial ones. ComponentD has no knowledge of the initial values.
