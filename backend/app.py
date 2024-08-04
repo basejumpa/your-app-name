@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+from backend.api import router as api_router
 
 app = FastAPI()
 
@@ -18,9 +18,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-class ValueResponse(BaseModel):
-    value: int
+app.include_router(api_router)
 
-@app.get("/value", response_model=ValueResponse)
-async def get_value():
-    return ValueResponse(value=42)
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("backend.app:app", host="0.0.0.0", port=8000, reload=True)

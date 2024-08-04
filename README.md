@@ -41,7 +41,7 @@ Req_05: ComponentD has a button to reset the variables to their initial ones. Co
 Start Backend via
 
 ```bash
-poetry run uvicorn backend.main:app --reload --port 8000
+poetry run python -m backend.app
 ```
 
 Start the Frontend via
