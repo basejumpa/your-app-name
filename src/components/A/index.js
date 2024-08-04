@@ -1,8 +1,12 @@
 import React from 'react';
 
 const A = () => {
+  const valueA = 19
+
   return (
-     <button>A</button>
+     <button>
+      Increment Value A: {valueA}
+      </button>
   );
 };
 
