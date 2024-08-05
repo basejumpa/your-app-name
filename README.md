@@ -38,13 +38,20 @@ Req_05: ComponentD has a button to reset the variables to their initial ones. Co
 
 ## User Guide
 
+Setup environment
+
+```bash
+poetry install
+npm install
+```
+
 Start Backend via
 
 ```bash
 poetry run python -m backend.app
 ```
 
-Start the Frontend via
+Start the Frontend (in a 2nd Terminal) via
 
 ```bash
 npm start
